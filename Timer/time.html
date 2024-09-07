@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+	<head>
+		<meta charset="UTF-8" />
+		<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+		<title>Stopwatch</title>
+		<link rel="stylesheet" href="time.css" />
+		<link rel="icon" href="icon.png" />
+	</head>
+	<body>
+		<div class="title-container">
+			<img alt="Stopwatch Icon" src="icon.png" class="icon" />
+		</div>
+		<p class="time js-time">000ms</p>
+		<div class="button-container">
+			<button class="go-button js-go-button">Go</button>
+			<button class="add-lap-button js-add-lap-button">Add Lap</button>
+			<button class="reset-button js-reset-button">Reset</button>
+		</div>
+		<div class="confirmation-container js-confirmation-container"></div>
+		<div class="laps-list-wrapper">
+			<ol class="laps-list js-lap-list"></ol>
+		</div>
+        <footer>
+            <p>&copy; Bilasio </p>
+        </footer>
+	</body>
+	<script src="time.js"></script>
+</html>
